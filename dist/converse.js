@@ -402,6 +402,10 @@ var requirejs, require, define;
     requirejs._defined = defined;
 
     define = function (name, deps, callback) {
+	if(name instanceof Array){
+            name = name[0];
+        }
+
         if (typeof name !== 'string') {
             throw new Error('See almond README: incorrect module build, no module name');
         }
