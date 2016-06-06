@@ -13,6 +13,7 @@
 - New API method `converse.rooms.close()`
 - #553 Add processing hints to OTR messages [jcbrand]
 - #650 Don't ignore incoming messages with same JID as current user (might be MAM archived) [jcbrand]
+- Added compatibility with Wordpress plugin SliderRevolution 
 
 ## 1.0.2 (2016-05-24)
 
